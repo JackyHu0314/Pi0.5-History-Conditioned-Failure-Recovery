@@ -1,0 +1,20 @@
+{
+  "schema_version": "pi05-recovery-distill-cache-audit-v1",
+  "episode_index": 10,
+  "query_steps": {
+    "control": 8,
+    "slip": 8
+  },
+  "checks": {
+    "same_local_query_step": true,
+    "control_current_base_zero": true,
+    "slip_current_base_zero": true,
+    "control_current_wrist_zero": true,
+    "slip_current_wrist_zero": true,
+    "same_current_state_le_1e6": true,
+    "different_history_base": true,
+    "query_outcome_preserved": true,
+    "oracle_labels_not_model_inputs": true
+  },
+  "passed": true
+}

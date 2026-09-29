@@ -1,0 +1,2245 @@
+{
+  "schema_version": "pi05-controlled-slip-development-summary-v1",
+  "status": "COMPLETED-DEV",
+  "scope": "post-screen exploratory development intervention on LIBERO-10 task 5",
+  "formal_claim": false,
+  "task_id": 5,
+  "initial_state_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "blackout_queries": 3,
+  "rows": {
+    "B2-zero": {
+      "episodes": 10,
+      "protocol_passed": true,
+      "protocol_failures": [],
+      "control_successes": 9,
+      "slip_successes": 9,
+      "slip_minus_control_pp": 0.0,
+      "paired_outcomes": {
+        "both_success": 8,
+        "control_only": 1,
+        "slip_only": 1,
+        "both_failure": 0
+      },
+      "first_blind_action_delta": {
+        "max_of_max_abs": 0.0036613941192626953,
+        "median_max_abs": 0.0019527673721313477,
+        "mean_abs_across_episodes": 0.0004748131969475772
+      },
+      "episode_audits": [
+        {
+          "episode_index": 0,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0012337658554315567,
+            "mean_abs": 0.0003497046817626272
+          },
+          "first_blind_query": 80,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 1,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0019527673721313477,
+            "mean_abs": 0.0005238101481381818
+          },
+          "first_blind_query": 80,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 2,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": false,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0019527673721313477,
+            "mean_abs": 0.00043159408128953407
+          },
+          "first_blind_query": 85,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 3,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.002929091453552246,
+            "mean_abs": 0.00039920103403606586
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 4,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0016018562018871307,
+            "mean_abs": 0.0004575557329059978
+          },
+          "first_blind_query": 75,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 5,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.002059534192085266,
+            "mean_abs": 0.0004558230550693614
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 6,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0019527673721313477,
+            "mean_abs": 0.00033218958059088823
+          },
+          "first_blind_query": 70,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 7,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0018306970596313477,
+            "mean_abs": 0.00036532650618547837
+          },
+          "first_blind_query": 70,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 8,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": false,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.003175109624862671,
+            "mean_abs": 0.0006174579499721793
+          },
+          "first_blind_query": 60,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 9,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0036613941192626953,
+            "mean_abs": 0.0008154691995254584
+          },
+          "first_blind_query": 70,
+          "object": "black_book_1"
+        }
+      ]
+    },
+    "B2-LVF": {
+      "episodes": 10,
+      "protocol_passed": true,
+      "protocol_failures": [],
+      "control_successes": 10,
+      "slip_successes": 9,
+      "slip_minus_control_pp": -10.0,
+      "paired_outcomes": {
+        "both_success": 9,
+        "control_only": 1,
+        "slip_only": 0,
+        "both_failure": 0
+      },
+      "first_blind_action_delta": {
+        "max_of_max_abs": 2.0127819776535034,
+        "median_max_abs": 0.48353084921836853,
+        "mean_abs_across_episodes": 0.140811717604499
+      },
+      "episode_audits": [
+        {
+          "episode_index": 0,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.50206658244133,
+            "mean_abs": 0.11650036691821047
+          },
+          "first_blind_query": 80,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 1,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.22631895542144775,
+            "mean_abs": 0.04667003495352609
+          },
+          "first_blind_query": 80,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 2,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": false,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 2.0127819776535034,
+            "mean_abs": 0.5727872256081484
+          },
+          "first_blind_query": 85,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 3,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.12265616655349731,
+            "mean_abs": 0.02512896730144608
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 4,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.5519528687000275,
+            "mean_abs": 0.12684937016123773
+          },
+          "first_blind_query": 75,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 5,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.5890243649482727,
+            "mean_abs": 0.1375452751659655
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 6,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.4649951159954071,
+            "mean_abs": 0.10628957697606113
+          },
+          "first_blind_query": 70,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 7,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.5565295666456223,
+            "mean_abs": 0.16869938103232665
+          },
+          "first_blind_query": 70,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 8,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.10114556550979614,
+            "mean_abs": 0.02024283002080795
+          },
+          "first_blind_query": 60,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 9,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.4010389745235443,
+            "mean_abs": 0.08740414790726
+          },
+          "first_blind_query": 70,
+          "object": "black_book_1"
+        }
+      ]
+    },
+    "C1": {
+      "episodes": 10,
+      "protocol_passed": true,
+      "protocol_failures": [],
+      "control_successes": 9,
+      "slip_successes": 9,
+      "slip_minus_control_pp": 0.0,
+      "paired_outcomes": {
+        "both_success": 9,
+        "control_only": 0,
+        "slip_only": 0,
+        "both_failure": 1
+      },
+      "first_blind_action_delta": {
+        "max_of_max_abs": 0.005331158638000488,
+        "median_max_abs": 0.0033080745488405228,
+        "mean_abs_across_episodes": 0.0008580876214546151
+      },
+      "episode_audits": [
+        {
+          "episode_index": 0,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.003233645111322403,
+            "mean_abs": 0.0007212293334305286
+          },
+          "first_blind_query": 80,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 1,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0030315518379211426,
+            "mean_abs": 0.0007559267172057714
+          },
+          "first_blind_query": 80,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 2,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.004112541675567627,
+            "mean_abs": 0.0007487965548144919
+          },
+          "first_blind_query": 85,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 3,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0033825039863586426,
+            "mean_abs": 0.0007146905683579722
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 4,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.002929091453552246,
+            "mean_abs": 0.0008692631206940859
+          },
+          "first_blind_query": 80,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 5,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": false,
+          "slip_success": false,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.002974867820739746,
+            "mean_abs": 0.000705585562224899
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 6,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.005331158638000488,
+            "mean_abs": 0.0012681329577130132
+          },
+          "first_blind_query": 70,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 7,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.005263239145278931,
+            "mean_abs": 0.0011080097552621736
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 8,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.002848386764526367,
+            "mean_abs": 0.0006249677107137228
+          },
+          "first_blind_query": 60,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 9,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.004749417304992676,
+            "mean_abs": 0.0010642739341294924
+          },
+          "first_blind_query": 75,
+          "object": "black_book_1"
+        }
+      ]
+    },
+    "R7": {
+      "episodes": 10,
+      "protocol_passed": true,
+      "protocol_failures": [],
+      "control_successes": 9,
+      "slip_successes": 7,
+      "slip_minus_control_pp": -20.0,
+      "paired_outcomes": {
+        "both_success": 7,
+        "control_only": 2,
+        "slip_only": 0,
+        "both_failure": 1
+      },
+      "first_blind_action_delta": {
+        "max_of_max_abs": 0.006922297179698944,
+        "median_max_abs": 0.003966271877288818,
+        "mean_abs_across_episodes": 0.0010644937029038765
+      },
+      "episode_audits": [
+        {
+          "episode_index": 0,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": false,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.003738909959793091,
+            "mean_abs": 0.0008532469451893121
+          },
+          "first_blind_query": 80,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 1,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0022597312927246094,
+            "mean_abs": 0.0005274263809302023
+          },
+          "first_blind_query": 80,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 2,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": false,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.005949735641479492,
+            "mean_abs": 0.0011255055865538972
+          },
+          "first_blind_query": 85,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 3,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0050525665283203125,
+            "mean_abs": 0.0015380089871022
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 4,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0032336413860321045,
+            "mean_abs": 0.0009263224101492337
+          },
+          "first_blind_query": 75,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 5,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": false,
+          "slip_success": false,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0027460455894470215,
+            "mean_abs": 0.0007240490312272283
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 6,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.004850506782531738,
+            "mean_abs": 0.0010348620232044985
+          },
+          "first_blind_query": 70,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 7,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.004042088985443115,
+            "mean_abs": 0.0009731080447506559
+          },
+          "first_blind_query": 65,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 8,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.0038904547691345215,
+            "mean_abs": 0.0009517858266398045
+          },
+          "first_blind_query": 60,
+          "object": "black_book_1"
+        },
+        {
+          "episode_index": 9,
+          "passed": true,
+          "checks": {
+            "same_episode_seed": true,
+            "same_first_blind_query": true,
+            "same_action_prefix": true,
+            "same_current_state_le_1e_6": true,
+            "same_intervened_object": true,
+            "control_retains_grasp": true,
+            "slip_breaks_grasp": true,
+            "slip_reaches_initial_qpos": true,
+            "different_live_camera_after_slip": true,
+            "different_memory_capture": true,
+            "expected_current_image_relation": true,
+            "expected_full_input_relation": true,
+            "expected_history_relation": true
+          },
+          "control_success": true,
+          "slip_success": true,
+          "paired_current_state_max_abs_delta": 0.0,
+          "first_blind_action_delta": {
+            "max_abs": 0.006922297179698944,
+            "mean_abs": 0.001990621793291731
+          },
+          "first_blind_query": 70,
+          "object": "black_book_1"
+        }
+      ]
+    }
+  },
+  "control_repeat_calibration": {
+    "schema_version": "pi05-control-repeat-calibration-summary-v1",
+    "purpose": "estimate independent-inference numerical and rollout variability under identical inputs",
+    "rows": {
+      "B2-zero": {
+        "episodes": 10,
+        "protocol_passed": true,
+        "protocol_failures": [],
+        "outcome_disagreements": 0,
+        "first_blind_action_delta": {
+          "max_of_max_abs": 0.004881858825683594,
+          "median_max_abs": 0.002410411834716797,
+          "mean_abs_across_episodes": 0.0004928582604637606
+        },
+        "episode_audits": [
+          {
+            "episode_index": 0,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002929091453552246,
+              "mean_abs": 0.0005098138270633561
+            }
+          },
+          {
+            "episode_index": 1,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002929091453552246,
+              "mean_abs": 0.0004596784023273618
+            }
+          },
+          {
+            "episode_index": 2,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0016450285911560059,
+              "mean_abs": 0.00037785530855347
+            }
+          },
+          {
+            "episode_index": 3,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.004881858825683594,
+              "mean_abs": 0.0004996728556891736
+            }
+          },
+          {
+            "episode_index": 4,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002467542886734009,
+              "mean_abs": 0.0006099562114936166
+            }
+          },
+          {
+            "episode_index": 5,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002440929412841797,
+              "mean_abs": 0.0007124693864690406
+            }
+          },
+          {
+            "episode_index": 6,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0012814998626708984,
+              "mean_abs": 0.00032008857355581965
+            }
+          },
+          {
+            "episode_index": 7,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0014646053314208984,
+              "mean_abs": 0.0003980769698890591
+            }
+          },
+          {
+            "episode_index": 8,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": false,
+            "repeat_success": false,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002379894256591797,
+              "mean_abs": 0.0005042273185348937
+            }
+          },
+          {
+            "episode_index": 9,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0019527673721313477,
+              "mean_abs": 0.0005367437510618142
+            }
+          }
+        ]
+      },
+      "B2-LVF": {
+        "episodes": 10,
+        "protocol_passed": true,
+        "protocol_failures": [],
+        "outcome_disagreements": 0,
+        "first_blind_action_delta": {
+          "max_of_max_abs": 0.002929091453552246,
+          "median_max_abs": 0.0020747780799865723,
+          "mean_abs_across_episodes": 0.0004342256849797975
+        },
+        "episode_audits": [
+          {
+            "episode_index": 0,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002929091453552246,
+              "mean_abs": 0.0005129004695585796
+            }
+          },
+          {
+            "episode_index": 1,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0019527673721313477,
+              "mean_abs": 0.00047381706535816194
+            }
+          },
+          {
+            "episode_index": 2,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0019527077674865723,
+              "mean_abs": 0.00037790597499614317
+            }
+          },
+          {
+            "episode_index": 3,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0027460455894470215,
+              "mean_abs": 0.00045088909932279164
+            }
+          },
+          {
+            "episode_index": 4,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002685070037841797,
+              "mean_abs": 0.0005324574054351874
+            }
+          },
+          {
+            "episode_index": 5,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0019526481628417969,
+              "mean_abs": 0.0003457141374903066
+            }
+          },
+          {
+            "episode_index": 6,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0012126266956329346,
+              "mean_abs": 0.0003710193293435233
+            }
+          },
+          {
+            "episode_index": 7,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0022884011268615723,
+              "mean_abs": 0.0004933563140054633
+            }
+          },
+          {
+            "episode_index": 8,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0012126266956329346,
+              "mean_abs": 0.00035276385564689657
+            }
+          },
+          {
+            "episode_index": 9,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002196788787841797,
+              "mean_abs": 0.0004314331986409213
+            }
+          }
+        ]
+      },
+      "C1": {
+        "episodes": 10,
+        "protocol_passed": true,
+        "protocol_failures": [],
+        "outcome_disagreements": 0,
+        "first_blind_action_delta": {
+          "max_of_max_abs": 0.007515698671340942,
+          "median_max_abs": 0.003775864839553833,
+          "mean_abs_across_episodes": 0.0009375439932461762
+        },
+        "episode_audits": [
+          {
+            "episode_index": 0,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0031325966119766235,
+              "mean_abs": 0.0007168892039252179
+            }
+          },
+          {
+            "episode_index": 1,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0039054155349731445,
+              "mean_abs": 0.0006356981782508748
+            }
+          },
+          {
+            "episode_index": 2,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.00390547513961792,
+              "mean_abs": 0.0008652538061141967
+            }
+          },
+          {
+            "episode_index": 3,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0023557841777801514,
+              "mean_abs": 0.0006007978960821804
+            }
+          },
+          {
+            "episode_index": 4,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0031325817108154297,
+              "mean_abs": 0.0008142017917374948
+            }
+          },
+          {
+            "episode_index": 5,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": false,
+            "repeat_success": false,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.00389021635055542,
+              "mean_abs": 0.0012689911635659103
+            }
+          },
+          {
+            "episode_index": 6,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0032494068145751953,
+              "mean_abs": 0.000841044628759846
+            }
+          },
+          {
+            "episode_index": 7,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.006865084171295166,
+              "mean_abs": 0.0010698038997361437
+            }
+          },
+          {
+            "episode_index": 8,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.007515698671340942,
+              "mean_abs": 0.0015427390146734458
+            }
+          },
+          {
+            "episode_index": 9,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.003661513328552246,
+              "mean_abs": 0.001020020349616451
+            }
+          }
+        ]
+      },
+      "R7": {
+        "episodes": 10,
+        "protocol_passed": true,
+        "protocol_failures": [],
+        "outcome_disagreements": 0,
+        "first_blind_action_delta": {
+          "max_of_max_abs": 0.00493505597114563,
+          "median_max_abs": 0.0029044970870018005,
+          "mean_abs_across_episodes": 0.0006935513022861934
+        },
+        "episode_audits": [
+          {
+            "episode_index": 0,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.00308440625667572,
+              "mean_abs": 0.0007308510248549283
+            }
+          },
+          {
+            "episode_index": 1,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.00493505597114563,
+              "mean_abs": 0.000705925578118435
+            }
+          },
+          {
+            "episode_index": 2,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0041190385818481445,
+              "mean_abs": 0.0011893024734620538
+            }
+          },
+          {
+            "episode_index": 3,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002261906862258911,
+              "mean_abs": 0.0006135185286309155
+            }
+          },
+          {
+            "episode_index": 4,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0040420591831207275,
+              "mean_abs": 0.0010458767148000853
+            }
+          },
+          {
+            "episode_index": 5,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": false,
+            "repeat_success": false,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0024409890174865723,
+              "mean_abs": 0.0003917387333266171
+            }
+          },
+          {
+            "episode_index": 6,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0019527673721313477,
+              "mean_abs": 0.0003694305005150714
+            }
+          },
+          {
+            "episode_index": 7,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.002724587917327881,
+              "mean_abs": 0.0009509146132456538
+            }
+          },
+          {
+            "episode_index": 8,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.0021969079971313477,
+              "mean_abs": 0.0004522487217660195
+            }
+          },
+          {
+            "episode_index": 9,
+            "passed": true,
+            "checks": {
+              "same_episode_seed": true,
+              "same_first_blind_query": true,
+              "same_action_prefix": true,
+              "same_current_state_le_1e_6": true,
+              "same_current_images": true,
+              "same_full_policy_input": true,
+              "same_history_input": true,
+              "same_intervened_object": true,
+              "both_retain_grasp": true,
+              "same_memory_capture": true
+            },
+            "control_success": true,
+            "repeat_success": true,
+            "outcome_equal": true,
+            "paired_current_state_max_abs_delta": 0.0,
+            "first_blind_action_delta": {
+              "max_abs": 0.003435760736465454,
+              "mean_abs": 0.00048570613414215455
+            }
+          }
+        ]
+      }
+    }
+  },
+  "finished_unix": 1790662570.4982152
+}
