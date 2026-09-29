@@ -11,5 +11,10 @@ Development split used to choose the recovery-distillation learning rate.
 Initial states 40–49 were used here; these numbers must not be treated as the
 frozen final result.
 
-The final initial states are 0–9. Their multi-seed results will be committed in
-a later update after the running evaluation and audit finish.
+## `recovery_distill_final/`
+
+Completed frozen evaluation on initial states 0–9, including three selected
+training seeds, paired outcome records, post-training probes, training curves
+and artifact hashes. Read [`结论.md`](recovery_distill_final/结论.md) before
+using the JSON: the result is a one-task development study and does not show a
+clear advantage over the no-history or last-valid-frame controls.

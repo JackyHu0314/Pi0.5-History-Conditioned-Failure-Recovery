@@ -1,0 +1,276 @@
+{
+  "schema_version": "pi05-recovery-distill-eval-v1",
+  "episodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "configs": {
+    "R7-original": {
+      "control": {
+        "episodes": 10,
+        "successes": 8,
+        "success_rate": 0.8,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip": {
+        "episodes": 10,
+        "successes": 5,
+        "success_rate": 0.5,
+        "by_episode": {
+          "0": 0,
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 0
+        }
+      },
+      "slip_minus_control": -0.30000000000000004
+    },
+    "B2-zero": {
+      "control": {
+        "episodes": 10,
+        "successes": 10,
+        "success_rate": 1.0,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip": {
+        "episodes": 10,
+        "successes": 8,
+        "success_rate": 0.8,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip_minus_control": -0.19999999999999996
+    },
+    "B2-LVF": {
+      "control": {
+        "episodes": 10,
+        "successes": 10,
+        "success_rate": 1.0,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip": {
+        "episodes": 10,
+        "successes": 8,
+        "success_rate": 0.8,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 1
+        }
+      },
+      "slip_minus_control": -0.19999999999999996
+    },
+    "C1": {
+      "control": {
+        "episodes": 10,
+        "successes": 8,
+        "success_rate": 0.8,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 0,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip": {
+        "episodes": 10,
+        "successes": 8,
+        "success_rate": 0.8,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip_minus_control": 0.0
+    },
+    "RD-low-s21": {
+      "control": {
+        "episodes": 10,
+        "successes": 7,
+        "success_rate": 0.7,
+        "by_episode": {
+          "0": 0,
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip": {
+        "episodes": 10,
+        "successes": 8,
+        "success_rate": 0.8,
+        "by_episode": {
+          "0": 0,
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip_minus_control": 0.10000000000000009
+    },
+    "RD-low-s22": {
+      "control": {
+        "episodes": 10,
+        "successes": 7,
+        "success_rate": 0.7,
+        "by_episode": {
+          "0": 1,
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip": {
+        "episodes": 10,
+        "successes": 8,
+        "success_rate": 0.8,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip_minus_control": 0.10000000000000009
+    },
+    "RD-low-s23": {
+      "control": {
+        "episodes": 10,
+        "successes": 9,
+        "success_rate": 0.9,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip": {
+        "episodes": 10,
+        "successes": 9,
+        "success_rate": 0.9,
+        "by_episode": {
+          "0": 1,
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        }
+      },
+      "slip_minus_control": 0.0
+    }
+  }
+}
