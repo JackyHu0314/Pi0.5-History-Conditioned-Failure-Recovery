@@ -136,15 +136,20 @@ RD 相对 R7-original 提高了 slip 终局成功率的点估计，但没有明�
 
 数据集、π0.5 权重、训练 checkpoint、完整视频和逐步轨迹体积较大，不提交到 GitHub。
 
-## 权重发布计划
+## 权重与复现
 
-冻结评测已完成。通过许可证与文件审计后，选定权重将单独发布到 Hugging Face，而不是直接放入 GitHub。预计发布：
+冻结评测使用的 RD-low seeds 21–23 推理 checkpoint 已发布到
+[Hugging Face](https://huggingface.co/hax404/pi05-history-conditioned-failure-recovery)。模型仓库同时提供：
 
-- B2（B2-zero/LVF 共用权重）、R7-original 和 RD-low seeds 21–23 的可复现 checkpoint；
-- 对应的训练配置、OpenPI 基座 commit、随机种子和评测协议；
-- 权重文件 SHA256、Model Card 和原始许可证说明。
+- 三个种子的训练配置、随机种子和冻结测试结果；
+- OpenPI 基座 commit、数据 revision 和受控滑落协议；
+- 完整文件清单、逐文件 SHA256、Model Card 与原始许可证说明。
 
-不发布中间步 checkpoint 和失败训练产物，避免将未经最终评测的版本标记为正式模型。
+上传后的远端文件数、大小和哈希复核见
+[`results/hf_release_audit.json`](results/hf_release_audit.json)。
+
+发布包不包含优化器状态、中间步 checkpoint 或失败训练产物。B2、R7 和 C1
+作为结果基线保留在本仓库的评测记录中，本次权重发布只包含最终三种子 RD-low 模型。
 
 ## 准备 OpenPI
 
@@ -207,10 +212,9 @@ export PI05_RUNTIME_ROOT=/absolute/path/to/runtime-root
 
 ## 后续方向
 
-1. 在 Hugging Face 发布选定 checkpoint、配置、Model Card 和哈希。
-2. 扩展到抓空、动作 chunk 丢失、物体碰撞和目标位置变化。
-3. 分开表示任务目标、执行进度和环境响应，只更新受到新证据影响的上下文。
-4. 与显式 execution-state token、普通恢复数据微调和解析控制器进行同预算比较。
+1. 扩展到抓空、动作 chunk 丢失、物体碰撞和目标位置变化。
+2. 分开表示任务目标、执行进度和环境响应，只更新受到新证据影响的上下文。
+3. 与显式 execution-state token、普通恢复数据微调和解析控制器进行同预算比较。
 
 ## License
 

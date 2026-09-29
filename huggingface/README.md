@@ -82,7 +82,7 @@ generalization, or real-robot capability.
 3. Download this model repository and point OpenPI at one checkpoint directory:
 
 ```bash
-hf download JackyHu0314/pi05-history-conditioned-failure-recovery \
+hf download hax404/pi05-history-conditioned-failure-recovery \
   --local-dir ./pi05-history-conditioned-failure-recovery
 
 export PI05_CHECKPOINT_DIR="$PWD/pi05-history-conditioned-failure-recovery/checkpoints/rd-low-s23"

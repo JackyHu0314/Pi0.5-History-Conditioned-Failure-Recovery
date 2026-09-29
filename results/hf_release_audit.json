@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-09-29T12:36:29.730773+00:00",
+  "repo_id": "hax404/pi05-history-conditioned-failure-recovery",
+  "revision": "f2acd9132d41c54b16e9717afcff20ee82fe3ca2",
+  "public": true,
+  "gated": false,
+  "logical_bytes": 18582726871,
+  "deduplicated_remote_storage_bytes": 9419006992,
+  "local_package_files": 2189,
+  "remote_files_including_gitattributes": 2190,
+  "lfs_or_xet_files_checked": 762,
+  "regular_git_files_checked": 1427,
+  "checkpoint_file_counts": {
+    "rd-low-s21": 724,
+    "rd-low-s22": 724,
+    "rd-low-s23": 724
+  },
+  "missing_files": [],
+  "unexpected_files": [],
+  "size_mismatches": [],
+  "hash_mismatches": [],
+  "forbidden_paths": [],
+  "passed": true
+}
